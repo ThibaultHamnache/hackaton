@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Title</title>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 text-center">
+
+            <!--<label>Min</label>-->
+            <!--<div class="input-group">-->
+                <!--<input id="min" type="number" class="form-control form-control-lg mb-2 text-center" placeholder="Enter a number">-->
+            <!--</div>-->
+            <br>
+
+            <label>Nombre de face du dé</label>
+            <div class="input-group">
+                <input id="max" type="number" class="form-control form-control-lg mb-2 text-center" placeholder="Enter a number">
+            </div>
+            <br>
+
+            <button class="btn btn-primary" onclick="generateRandomNumber();"> Lancer le dé</button>
+
+            <div id="display">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
